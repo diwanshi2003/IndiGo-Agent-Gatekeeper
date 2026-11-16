@@ -1,0 +1,16 @@
+{
+    "travelbot": {
+        "customer": "Demo Customer",
+        "agent_name": "TravelBot",
+        "status": "active",
+        "registered_at": "2026-11-16T19:20:53+05:30",
+        "revoked_at": null
+    },
+    "unknownbot": {
+        "customer": "Demo Customer2",
+        "agent_name": "UnknownBot",
+        "status": "revoked",
+        "registered_at": "2026-11-16T17:44:02+05:30",
+        "revoked_at": "2026-11-16T18:51:46+05:30"
+    }
+}

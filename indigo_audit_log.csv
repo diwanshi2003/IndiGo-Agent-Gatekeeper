@@ -1,0 +1,17 @@
+timestamp,customer,agent_name,action,amount,decision,rule,reason
+2026-11-16T17:42:22+05:30,Demo Customer,TravelBot,view_fares,0.0,ALLOW,R3,Read-only flight fare viewing is permitted.
+2026-11-16T17:44:51+05:30,Demo Customer2,UnknownBot,book,5000.0,ALLOW,R4,Booking is within the permitted amount limit.
+2026-11-16T18:26:07+05:30,Demo Customer2,MysteryBot99,book,5000.0,BLOCK,R1,This AI agent is not registered.
+2026-11-16T18:31:47+05:30,Demo Customer3,TravelBot,book,15000.0,ASK CUSTOMER,R5,"Booking exceeds Rs. 10,000. Customer confirmation is required."
+2026-11-16T18:38:50+05:30,Demo Customer4,TravelBot,book,5000.0,ALLOW,R4,Booking is within the permitted amount limit.
+2026-11-16T18:51:40+05:30,Demo Customer,TravelBot,revoke_agent,0.0,REVOKED,R2,Customer revoked this AI agent's permission.
+2026-11-16T18:51:46+05:30,Demo Customer2,UnknownBot,revoke_agent,0.0,REVOKED,R2,Customer revoked this AI agent's permission.
+2026-11-16T18:56:26+05:30,Demo Customer5,TravelBot,book,2000.0,ALLOW,R4,Booking is within the permitted amount limit.
+2026-11-16T19:03:34+05:30,Demo Customer5,TravelBot,revoke_agent,0.0,REVOKED,R2,Customer revoked this AI agent's permission.
+2026-11-16T19:07:01+05:30,Demo Customer5,TravelBot,book,2000.0,BLOCK,R2,This AI agent's permission has been revoked.
+2026-11-16T19:20:00+05:30,Demo Customer6,TravelBot,change,0.0,BLOCK,R2,This AI agent's permission has been revoked.
+2026-11-16T19:21:08+05:30,Demo Customer,TravelBot,change,0.0,ASK CUSTOMER,R6,Customer approval is required to change a booking.
+2026-11-16T19:21:22+05:30,Demo Customer,TravelBot,change,0.0,ASK CUSTOMER,R6,Customer approval is required to change a booking.
+2026-11-16T19:21:23+05:30,Demo Customer,TravelBot,change,0.0,ASK CUSTOMER,R6,Customer approval is required to change a booking.
+2026-11-16T19:29:30+05:30,Demo Customer7,TravelBot,refund,2000.0,ASK CUSTOMER,R7,Customer approval is required for a refund.
+2026-11-16T19:34:55+05:30,Demo Customer8,TravelBot,cancel,0.0,BLOCK,R8,This action is not supported by the Gatekeeper.
